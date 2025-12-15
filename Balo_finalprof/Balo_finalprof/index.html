@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Camille Balo | Portfolio</title>
+
+  <style>
+    body {
+      font-family: "Poppins", Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background: linear-gradient(-45deg, #1a1a2e, #16213e, #2a1a3f, #1e2a47);
+      background-size: 400% 400%;
+      animation: gradientMove 15s ease infinite;
+      color: #eaeaea;
+      text-align: center;
+    }
+
+    @keyframes gradientMove {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    /* NAVIGATION BAR */
+    nav {
+      background: rgba(15, 23, 42, 0.9);
+      padding: 12px 0;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #c7b9ff;
+      font-weight: 600;
+      font-size: 1rem;
+      transition: color 0.3s ease, text-shadow 0.3s ease;
+    }
+
+    nav ul li a:hover {
+      color: #a5d8ff;
+      text-shadow: 0 0 8px rgba(165,216,255,0.7);
+    }
+
+    /* Header */
+    header {
+      padding: 40px 20px;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      color: #c7b9ff;
+      text-shadow: 0 0 12px rgba(199,185,255,0.6);
+    }
+
+    header h2 {
+      font-size: 1.6rem;
+      color: #a5d8ff;
+    }
+
+    header h3 {
+      font-size: 1rem;
+      color: #bbbbbb;
+    }
+
+    header img {
+      width: 160px;
+      height: 160px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 4px solid #fff;
+      box-shadow: 0 0 15px rgba(165,216,255,0.6);
+      transition: transform 0.4s ease;
+    }
+
+    header img:hover {
+      transform: scale(1.08);
+    }
+
+    main {
+      max-width: 900px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    section {
+      margin-bottom: 25px;
+      background: rgba(255, 255, 255, 0.06);
+      padding: 25px;
+      border-radius: 14px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+    }
+
+    h3 {
+      color: #b388eb;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    li {
+      margin: 10px 0;
+    }
+
+    footer {
+      background: #0f172a;
+      padding: 15px;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- NAV BAR -->
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HEADER / HOME -->
+  <header id="home">
+    <h1>MY PORTFOLIO</h1>
+    <h2>Camille Balo</h2>
+    <h3>IT Student / Web Developer</h3>
+    <img src="29eb0f4e-607e-420a-9c52-fa6cdde0faea (1).jfif" alt="Camille Balo">
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main>
+
+    <section id="about">
+      <h3>About Me</h3>
+      <p>
+        I’m Camille, a tech-savvy IT student who loves experimenting with code,
+        learning through mistakes, and building projects step by step.
+      </p>
+    </section>
+
+    <section id="skills">
+      <h3>Skills</h3>
+      <ul>
+        <li>Problem-solving</li>
+        <li>Adaptability</li>
+        <li>Back-end development</li>
+        <li>Front-end development</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h3>Projects</h3>
+      <p><strong>Event Management System</strong> – Web app for events.</p>
+      <p><strong>Portfolio Website</strong> – Personal showcase site.</p>
+    </section>
+
+    <section id="contact">
+      <h3>Contact</h3>
+      <ul>
+        <li>👤 @camsolab</li>
+        <li>📧 camsolab@gmail.com</li>
+        <li>🏠 Catigbian, Bohol</li>
+        <li>🌐 www.camsolab.com</li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© 2025 Camille Balo | Portfolio</p>
+  </footer>
+
+</body>
+</html>
